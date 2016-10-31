@@ -1,0 +1,75 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+body {
+  font-family: Open Sans Condensed;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 2%;
+  margin-bottom: 0%;
+}
+
+.navbar li a {
+  font-size: 2em;
+}
+
+.navbar .nav li a {
+  color: #888;
+}
+
+.navbar .nav li a:hover {
+  color: #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.navbar .navbar-brand {
+  color: #888;
+}
+
+.navbar .navbar-brand:hover {
+  color: #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.rowHeight {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75em;
+}
+
+.col-md-9 {
+  background-color: #666;
+  padding: 2%;
+  font-size: 1.5em;
+  color: #111;
+  position: relative;
+}
+
+.col-md-3{
+  background-color: #e4e4e4;
+  padding: 2%;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.slider-thumbnails {
+  background-color: #000;
+  width: 100%;
+  padding: 0.5%;
+}
+
+.slider-thumbnails img {
+  width: 18%;
+  display: inline-block;
+  overflow: hidden;
+}
