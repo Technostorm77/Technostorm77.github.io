@@ -1,0 +1,63 @@
+/*Id=# Class=.*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+h1 {
+  font-family: Open Sans;
+  text-align: center;
+  color: #266DD3;
+}
+
+p {
+  font-family: Open Sans;
+  text-align: center;
+  color: #266DD3;
+}
+
+.ButtonWrapper {
+  text-align: center;
+}
+
+.lightWrapper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Puzzlelight {
+  border: 8px solid #266DD3;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px auto;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+
+.PuzzlelightOn {
+  background-color: #266DD3;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #266DD3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #555;
+}
+
+button:hover {
+  background-color: #1B519B;
+}
+
+button:active {
+  background-color: #1B519B;
+  box-shadow: 0 5px #555;
+  transform: translateY(4px);
+}
